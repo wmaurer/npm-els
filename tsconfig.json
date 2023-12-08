@@ -14,7 +14,12 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {},
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "plugins": [
+      {
+        "name": "@effect/language-service"
+      }
+    ]
   },
   "files": [],
   "include": [],
